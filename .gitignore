@@ -1,0 +1,69 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Configurações de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivo de configuração real (versão de exemplo no repositório)
+wp-config.php
+wp-config-sample.php
+
+# Núcleo do WordPress (se você preferir instalar via Composer ou manualmente no servidor)
+/wp-admin/
+/wp-includes/
+
+# Cache, uploads e pastas mutáveis
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+/wp-content/backup-*/ 
+/wp-content/ai1wm-backups/
+/wp-content/uploads/
+
+# Plugins e temas de terceiros
+# — se você estiver versionando apenas seus próprios plugins/temas, ignore os de terceiros
+/wp-content/plugins/
+/wp-content/themes/
+/wp-content/mu-plugins/
+
+# Dependências de PHP e JavaScript
+/vendor/
+/node_modules/
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+# Logs e relatórios
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ferramentas de deploy
+.deploy/
+.ssh/
+
+# Arquivos de configuração específicos do servidor
+.htaccess
+.htaccess.bk
+wp-config.php
+
+# Diretório privado com configurações sensíveis
+.private/
+
+# Scripts temporários de autologin (parecem ser arquivos temporários)
+create_autologin_*.php
+
+# Outros artefatos
+*.zip
+*.tar.gz
