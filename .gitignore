@@ -34,6 +34,9 @@ wp-config-sample.php
 /wp-content/plugins/
 /wp-content/themes/
 /wp-content/mu-plugins/
+/wp-content/languages/
+/wp-content/languages/admin-network-pt_BR.po
+
 
 # Dependências de PHP e JavaScript
 /vendor/
